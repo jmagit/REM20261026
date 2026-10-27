@@ -1,0 +1,82 @@
+<mxfile host="65bd71144e">
+    <diagram id="4abguXK4O1Qe855sCKwA" name="Página-1">
+        <mxGraphModel dx="737" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-19" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-2" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=30;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-14">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="550" y="440" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-2" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Contratos" vertex="1">
+                    <mxGeometry height="100" width="150" x="350" y="274" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-3" parent="VTN9P8KcgPIXKpmGk2-T-2" style="html=1;whiteSpace=wrap;" value="IJuego" vertex="1">
+                    <mxGeometry height="30" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-5" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Common" vertex="1">
+                    <mxGeometry height="140" width="150" x="820" y="274" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-6" parent="VTN9P8KcgPIXKpmGk2-T-5" style="html=1;whiteSpace=wrap;align=left;" value="tablero&lt;div&gt;color&lt;/div&gt;&lt;div&gt;movimiento&lt;/div&gt;&lt;div style=&quot;&quot;&gt;posicion&lt;/div&gt;&lt;div style=&quot;&quot;&gt;pieza&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="80" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-22" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-7" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=65;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-10">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="280" y="280" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-7" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Ajedrez" vertex="1">
+                    <mxGeometry height="160" width="150" x="570" y="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-8" parent="VTN9P8KcgPIXKpmGk2-T-7" style="html=1;whiteSpace=wrap;align=left;" value="JuegoImpl&lt;div&gt;Rey&lt;/div&gt;&lt;div&gt;Reina&lt;/div&gt;&lt;div&gt;Alfil&lt;/div&gt;&lt;div&gt;Caballo&lt;/div&gt;&lt;div&gt;Torre&lt;/div&gt;&lt;div&gt;Peon&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="100" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-10" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="AppWeb" vertex="1">
+                    <mxGeometry height="100" width="150" x="190" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-12" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="AppEscritorio" vertex="1">
+                    <mxGeometry height="100" width="150" x="50" y="290" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-14" parent="1" style="shape=folder;fontStyle=1;tabWidth=110;tabHeight=30;tabPosition=left;html=1;boundedLbl=1;labelInHeader=1;container=1;collapsible=0;recursiveResize=0;whiteSpace=wrap;" value="Damas" vertex="1">
+                    <mxGeometry height="100" width="150" x="560" y="359" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-15" parent="VTN9P8KcgPIXKpmGk2-T-14" style="html=1;whiteSpace=wrap;align=left;" value="JuegoImpl&lt;div&gt;Dama&lt;/div&gt;" vertex="1">
+                    <mxGeometry height="40" relative="1" width="110" as="geometry">
+                        <mxPoint x="20" y="50" as="offset"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-16" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-2" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=65;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-17" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-2" style="edgeStyle=none;html=1;entryX=0.982;entryY=0.574;entryDx=0;entryDy=0;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-18" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-2" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=0;entryDy=95;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-20" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-5" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=95;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-21" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-5" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=65;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-14">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-23" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-7" style="edgeStyle=none;html=1;entryX=0.988;entryY=0.407;entryDx=0;entryDy=0;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-24" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-14" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=82.5;entryPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="VTN9P8KcgPIXKpmGk2-T-25" edge="1" parent="1" source="VTN9P8KcgPIXKpmGk2-T-14" style="edgeStyle=none;html=1;entryX=0;entryY=0;entryDx=150;entryDy=82.5;entryPerimeter=0;exitX=0;exitY=0;exitDx=0;exitDy=82.5;exitPerimeter=0;" target="VTN9P8KcgPIXKpmGk2-T-12">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
