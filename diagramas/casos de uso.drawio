@@ -1,0 +1,76 @@
+<mxfile host="65bd71144e">
+    <diagram id="W2nMKJAmXqDxpqryFgDQ" name="Página-1">
+        <mxGraphModel dx="1037" dy="604" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-11" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-1" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="NqUpSUS_uPhRbl7IUL7L-5">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-1" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Jugador" vertex="1">
+                    <mxGeometry height="60" width="30" x="110" y="120" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-2" parent="1" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" value="" vertex="1">
+                    <mxGeometry height="120" width="180" x="270" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-3" parent="NqUpSUS_uPhRbl7IUL7L-2" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" value="Juego" vertex="1">
+                    <mxGeometry height="30" width="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-4" parent="NqUpSUS_uPhRbl7IUL7L-2" style="line;strokeWidth=1;fillColor=none;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=0;resizeWidth=1;" value="" vertex="1">
+                    <mxGeometry height="10" width="162" x="9" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-5" parent="NqUpSUS_uPhRbl7IUL7L-2" style="text;html=1;align=center;verticalAlign=middle;rotatable=0;fillColor=none;strokeColor=none;whiteSpace=wrap;" value="extension points" vertex="1">
+                    <mxGeometry height="30" width="180" y="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-6" parent="NqUpSUS_uPhRbl7IUL7L-2" style="text;html=1;align=left;verticalAlign=middle;rotatable=0;spacingLeft=25;fillColor=none;strokeColor=none;whiteSpace=wrap;" value="Extension point 1" vertex="1">
+                    <mxGeometry height="30" width="180" x="10" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-9" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Arbitro" vertex="1">
+                    <mxGeometry height="60" width="30" x="630" y="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-10" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Federacion" vertex="1">
+                    <mxGeometry height="60" width="30" x="630" y="230" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-12" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-9" style="edgeStyle=none;html=1;entryX=0.962;entryY=-0.013;entryDx=0;entryDy=0;entryPerimeter=0;" target="NqUpSUS_uPhRbl7IUL7L-4">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-13" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-6" style="edgeStyle=none;html=1;" target="NqUpSUS_uPhRbl7IUL7L-10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-24" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-14" style="edgeStyle=none;html=1;entryX=0;entryY=1;entryDx=0;entryDy=0;" target="NqUpSUS_uPhRbl7IUL7L-16">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-26" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-14" style="edgeStyle=none;html=1;entryX=0;entryY=0.75;entryDx=0;entryDy=0;" target="NqUpSUS_uPhRbl7IUL7L-21">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-14" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Jugador" vertex="1">
+                    <mxGeometry height="60" width="30" x="120" y="400" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-25" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-15" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="NqUpSUS_uPhRbl7IUL7L-20">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-15" parent="1" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" value="" vertex="1">
+                    <mxGeometry height="90" width="170" x="279" y="360" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-16" parent="NqUpSUS_uPhRbl7IUL7L-15" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" value="Pedir contrincante" vertex="1">
+                    <mxGeometry height="22.5" width="170" x="-0.9444444444444444" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-20" parent="1" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" value="" vertex="1">
+                    <mxGeometry height="90" width="162" x="277.16" y="480" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-21" parent="NqUpSUS_uPhRbl7IUL7L-20" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" value="Aceptar partida" vertex="1">
+                    <mxGeometry height="22.5" width="162" x="-0.9" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-22" parent="1" style="shape=ellipse;container=1;horizontal=1;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;html=1;dashed=0;collapsible=0;" value="" vertex="1">
+                    <mxGeometry height="90" width="162" x="280" y="600" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-23" parent="NqUpSUS_uPhRbl7IUL7L-22" style="html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rotatable=0;whiteSpace=wrap;" value="Jugadas" vertex="1">
+                    <mxGeometry height="22.5" width="162" x="-0.9" y="30" as="geometry"/>
+                </mxCell>
+                <mxCell id="NqUpSUS_uPhRbl7IUL7L-27" edge="1" parent="1" source="NqUpSUS_uPhRbl7IUL7L-14" style="edgeStyle=none;html=1;entryX=-0.027;entryY=0.424;entryDx=0;entryDy=0;entryPerimeter=0;" target="NqUpSUS_uPhRbl7IUL7L-22">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
