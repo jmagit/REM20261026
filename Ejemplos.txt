@@ -1,0 +1,13 @@
+
+if(f is Circulo c) {
+    Circulo c = (Circulo)f;
+    c.
+    :
+}
+
+if(cad != null && cad.equals("fin")) {
+
+}
+if("fin".equals(cad)) {
+
+}
