@@ -5,8 +5,8 @@
 ## Atributos
 
 - \- tablero: Tablero
-- turno: Color
-- estado: Estado
+- \- turno: Color
+- \- estado: Estado
 
 ## Métodos
 
@@ -14,6 +14,7 @@
 - \+ jugada(Movimiento)
 - \+ dameTablero()
 - \+ dameTurno()
+- \+ dameEstado()
 - \- cambiaTurno()
 - \- mover(Movimiento)
 
@@ -29,11 +30,15 @@
 
 ## Métodos
 
+- \+ damePieza(Posición): Pieza
 - \+ ponPieza(Posición, Pieza)
 - \+ quitaPieza(Posición)
-- \+ hayPieza(Posición, Pieza): bool
+- \+ hayPieza(Posición): bool
+- \+ hayPiezasEntre(Movimiento): bool
 - \+ mover(Posición inicial, Posición final)
 - \+ mover(Movimiento)
+- \+ clonar()
+- \+ \<\<clase>> colorEscaque(Posición): Color
 
 # Escaque (Casilla)
 
@@ -59,56 +64,68 @@
 
 ## Métodos
 
+- ctor(Color)
+- \+ dameColor(): Color
 - \+ mover(Movimiento, Tablero)
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Rey -> Pieza
 
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Reina (Dama) -> Pieza
 
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Alfil -> Pieza
 
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Caballo -> Pieza
 
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Torre -> Pieza
 
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 
 # Peon -> Pieza
 
+## Evento
+
+- Promocion
+
 ## Métodos
 
-- \+ esValido(Movimiento, Tablero)
+- \# esValido(Movimiento, Tablero)
 - \+ mover(Movimiento, Tablero)
+- \- inicia(Movimiento): bool
+- \- avanza(Movimiento): bool
+- \- puedeComer(Movimiento): bool
 
 # Posición
 
 ## Atributos
 
 - columna: char
-- fila: chas 
+- fila: char
 
 ## Métodos
 
-- 
+- ctor(Char fila, Char columna)
+- dameFila()
+- dameColumna()
+- igual(Posicion)
 
 # Movimiento (Jugada)
 
@@ -119,11 +136,16 @@
 
 ## Métodos
 
-- esVertical
-- esHorizontal
-- esDiagonal
-- deltaVertical
-- deltaHorizontal
+- ctor(Cadena)
+- damePosicionInicial() : Posicion
+- damePosicionFinal() : Posicion
+- esVertical(): bool
+- esHorizontal(): bool
+- esDiagonal(): bool
+- saltoVertical(): entero
+- saltoHorizontal(): entero
+- deltaVertical(): entero
+- deltaHorizontal(): entero
 
 # -Enroque
 
@@ -140,3 +162,7 @@
 # -Jaque
 
 # -Jaque mate
+
+
+# JuegoException
+
